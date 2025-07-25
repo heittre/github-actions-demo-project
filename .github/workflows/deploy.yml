@@ -20,6 +20,7 @@ jobs:
           username: ${{ secrets.GCP_VM_USER }}
           key: ${{ secrets.GCP_VM_SSH_KEY }}
           script: |
+            set -x
             cd ~/github-actions-demo-project
             git pull origin main
             npm ci
