@@ -13,7 +13,7 @@ export async function getRecipe(req, res) {
         "1 lb chicken",
         "1 cup Alfredo sauce",
         "1/2 cup Parmesan cheese",
-        "1/2 cup Mozzarella cheese",
+        "1/2 cup Mozzarella chees",
         "1/2 cup heavy cream",
         "1/4 cup butter",
         "2 cloves garlic",
